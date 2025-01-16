@@ -1,4 +1,4 @@
-name: React Tests
+name: ci.yml
 
 on:
   push:
