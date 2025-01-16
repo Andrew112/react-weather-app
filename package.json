@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^13.4.0",
     "cra-template": "1.2.0",
     "npm": "^11.0.0",
     "react": "^19.0.0",
@@ -36,6 +37,8 @@
     ]
   },
   "devDependencies": {
-    "web-vitals": "^4.2.4"
+    "web-vitals": "^4.2.4",
+    "@babel/plugin-proposal-private-property-in-object": "^7.14.5"
   }
 }
+
