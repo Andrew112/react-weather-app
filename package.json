@@ -1,0 +1,30 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": [
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version"
+  ],
+  "devDependencies": {
+    "web-vitals": "^4.2.4",
+    "babel/plugin-proposal-private-property-in-object": "^7.14.5"
+  },
+  "jest": {
+    "testMatch": [
+      "**/__tests__/**/*.js?(x)",
+      "**/?(*.)+(spec|test).js?(x)"
+    ]
+  }
+}
