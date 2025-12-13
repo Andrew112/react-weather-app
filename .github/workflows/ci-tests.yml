@@ -26,7 +26,7 @@ jobs:
         id: detect
         shell: bash
         run: |
-          # default to npm if nothing is found
+          # Default to npm if nothing is found
           if [ -f pnpm-lock.yaml ]; then
             echo "manager=pnpm" >> $GITHUB_OUTPUT
             echo "lockfile=pnpm-lock.yaml" >> $GITHUB_OUTPUT
@@ -40,7 +40,7 @@ jobs:
             echo "lockfile=package-lock.json" >> $GITHUB_OUTPUT
             echo "install=npm ci" >> $GITHUB_OUTPUT
           else
-            # fallback
+            # Fallback to npm if no lockfile found
             echo "manager=npm" >> $GITHUB_OUTPUT
             echo "lockfile=package-lock.json" >> $GITHUB_OUTPUT
             echo "install=npm install" >> $GITHUB_OUTPUT
@@ -67,9 +67,9 @@ jobs:
         run: |
           echo "Running test script using ${{ steps.detect.outputs.manager }}"
           if [ "${{ steps.detect.outputs.manager }}" = "npm" ]; then
-            npm test -- --watchAll=false
+            npm test
           elif [ "${{ steps.detect.outputs.manager }}" = "yarn" ]; then
-            yarn test --watchAll=false
+            yarn test
           else
-            pnpm test -- --watchAll=false
+            pnpm test
           fi
