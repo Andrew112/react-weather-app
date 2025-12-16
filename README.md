@@ -1,3 +1,5 @@
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/755f1c49-62d1-4b68-a1a5-4914e9095bf1/deploy-status)](https://app.netlify.com/projects/legendary-sunburst-82c066/deploys)
 # React Weather App
 
 A small React application that shows current weather and a short forecast for a city. Built with Create React App and designed to be simple, extendable, and easy to deploy.
