@@ -3,6 +3,7 @@
 {
   "name": "weather-app",
   "version": "1.0.0",
+  "homepage": "https://legendary-sunburst-82c066.netlify.app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
