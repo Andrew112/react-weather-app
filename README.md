@@ -4,7 +4,7 @@
 
 A small React application that shows current weather and a short forecast for a city. Built with Create React App and designed to be simple, extendable, and easy to deploy.
 
-Live demo: (add link if deployed)
+Live demo: [https://legendary-sunburst-82c066.netlify.app](https://legendary-sunburst-82c066.netlify.app)
 
 ## Features
 - Search weather by city name
