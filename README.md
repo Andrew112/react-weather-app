@@ -90,11 +90,16 @@ npm run build
 ```
 
 ## Contributing
-Contributions are welcome. Suggested workflow:
+Contributions are welcome! We appreciate your help in improving this project.
+
+**Quick Start:**
 1. Fork the repo
 2. Create a feature branch: `git checkout -b feat/your-feature`
 3. Commit changes: `git commit -m "Add ..."`
-4. Push and open a pull request
+4. Push to your fork: `git push origin feat/your-feature`
+5. Open a pull request
+
+**For detailed instructions** on how to contribute, including Git workflow, branch strategy, and troubleshooting tips, please read our [CONTRIBUTING.md](./CONTRIBUTING.md) guide.
 
 Please open issues for bugs or feature requests.
 
